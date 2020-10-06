@@ -30,7 +30,7 @@
           BeforeTargets="BeforePublish">
     <!--<Exec Command="npm install" />-->
 	  <!--<Exec Command="gulp" />-->
-    <Exec Command="ng build" />
+	  <!--<Exec Command="ng build" />-->
   </Target>
 
 
