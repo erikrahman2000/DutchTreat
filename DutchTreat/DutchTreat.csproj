@@ -29,7 +29,7 @@
   <Target Name="MyPublishScripts"
           BeforeTargets="BeforePublish">
     <!--<Exec Command="npm install" />-->
-    <Exec Command="gulp" />
+	  <!--<Exec Command="gulp" />-->
     <Exec Command="ng build" />
   </Target>
 
